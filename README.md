@@ -37,7 +37,7 @@ Khởi chạy phần mềm Arduino và thực hiện các bước sau:
 Lưu ý: Trước khi nạp code, cần tháo receiver của PS2 ra khỏi mạch VIA B.
 
 ``` cpp
-#define LED_BUILTIN = 13; 
+#define LED_BUILTIN 13
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
