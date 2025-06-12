@@ -30,7 +30,7 @@ void initMotors()
   Wire.begin(); // SDA, SCL,400000);
   pwm.begin();
   pwm.setOscillatorFrequency(27000000);
-  pwm.setPWMFreq(1600);
+  pwm.setPWMFreq(50);
   Wire.setClock(400000);
 
   setPWMMotors(0, 0, 0, 0);
