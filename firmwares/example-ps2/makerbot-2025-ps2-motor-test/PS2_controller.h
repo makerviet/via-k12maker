@@ -7,8 +7,8 @@ PS2X ps2x; // create PS2 Controller Class object
 #define X_JOY_CALIB 127
 #define Y_JOY_CALIB 128
 
-#define PS2_DAT 12 // MISO  19
-#define PS2_CMD 13 // MOSI  23
+#define PS2_DAT 12 // MOSI  19
+#define PS2_CMD 13 // MISO  23
 #define PS2_SEL 15 // SS     5
 #define PS2_CLK 14 // SLK   18
 
