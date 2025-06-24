@@ -12,7 +12,7 @@ PS2X ps2x; // create PS2 Controller Class object
 #define PS2_SEL 15 // SS     5
 #define PS2_CLK 14 // SLK   18
 
-#define TOP_SPEED 4095
+#define TOP_SPEED 3500
 #define NORM_SPEED 2048
 #define TURNING_FACTOR 1
 
