@@ -8,8 +8,8 @@
  *    12     13    GND   3.3V   15   14
  ******************************************************************/
 
-#define PS2_DAT 12 // MISO
-#define PS2_CMD 13 // MOSI
+#define PS2_DAT 12 // MOSI
+#define PS2_CMD 13 // MISO
 #define PS2_SEL 15 // SS
 #define PS2_CLK 14 // SLK
 
